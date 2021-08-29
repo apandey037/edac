@@ -1,0 +1,132 @@
+<html>
+
+<head>
+    <title>Different Forms</title>
+    <style>
+        #fil {
+            width: 500px;
+            height: auto;
+        }
+        
+        #fname {
+            color: blue;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="form1">
+        <form>
+            <fieldset id="fil">
+                <legend>Create a profile</legend>
+                <lable id="fname">First Name</lable><br>
+                <input type="text"><br>
+                <label>Last Name</label><br>
+                <input type="text"><br>
+                <label>Date of Birth</label><br>
+                <input type="date"><br>
+                <label>Gender</label>
+                <input type="radio" name="gender"><label>male</label>
+                <input type="radio" name="gender"><label>Female</label>
+                <br>
+                <input type="submit" value="Create Profile">
+            </fieldset>
+        </form>
+    </div>
+    <hr>
+    <div class="form2">
+        <form>
+            <table border="1">
+                <tr bgcolor="blue">
+                    <th>Name</th>
+                    <th>Value</th>
+
+                </tr>
+                <tr>
+                    <td>
+                        Name
+                    </td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Sex</td>
+                    <td><input type="radio" name="gender"><label>male</label><br>
+                        <input type="radio" name="gender"><label>Female</label></td>
+                </tr>
+                <tr>
+                    <td>Eye Color</td>
+                    <td><select>
+                        <option value="green">green</option>
+                        <option value="black">black</option>
+                        <option value="blue">blue</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>Check all that apply</td>
+                    <td><input type="checkbox">Over 6 feet tall<br>
+                        <input type="checkbox">Over 200 pounds</td>
+                </tr>
+                <tr rowspan="2" align="center">
+                    <td colspan="2">Describe your athletic ability<br>
+                        <textarea cols="30" rows="5"></textarea><br>
+                        <input type="submit" value="Enter my Information">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <hr>
+    <div class="form3">
+        <form>
+            <table border="1" bgcolor="pink">
+                <tr>
+                    <td>
+                        Name
+                    </td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Employee Code</td>
+                    <td><input type="number" height="60" width="10"> </td>
+                </tr>
+                <tr>
+                    <td>Department</td>
+                    <td><input type="radio" name="gender"><label>ADMIN</label><br>
+                        <input type="radio" name="gender"><label>HR</label><br>
+                        <input type="radio" name="gender"><label>TECHNICAL</label><br>
+                        <input type="radio" name="gender"><label>ACCOUNTS</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Date of joining</td>
+                    <td><input type="text" size="1">/<input type="text" size="1">/<input type="text" size="1"></td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td><textarea rows="5" cols="35"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Traning programs</td>
+                    <td><input type="checkbox">HTML/DHTML<br>
+                        <input type="checkbox">JAVA<br>
+                        <input type="checkbox">CLIENT/SERVER<br>
+                        <input type="checkbox">.NET
+                    </td>
+                </tr>
+                <tr>
+                    <td>Traning Programms need to attend</td>
+                    <td><textarea cols="10" rows="5" placeholder="JAVASCRIPT JSTRUTS"></textarea>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>Send the Information at</td>
+                    <td><a href="#">empinf@gmail.com</a></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>
